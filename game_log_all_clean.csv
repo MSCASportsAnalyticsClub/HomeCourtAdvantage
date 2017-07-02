@@ -1,0 +1,66 @@
+"The data in the ""game_log"" sheet was pulled from www.basketball-reference.com for every game for every team during the 1987 - 2017 seasons for both regular season and playoffs.  ",,
+"The data combines both ""Basic Statistics"" and ""Advanced Statistics"" ",,
+A sample link for Boston's game log in the 2016 season for the basic statistics is here: http://www.basketball-reference.com/teams/BOS/2016/gamelog/,,
+A sample link for Boston's game log in the 2016 season for the advanced statistics is here: http://www.basketball-reference.com/teams/BOS/2016/gamelog-advanced/,,
+,,
+Variable Name,Variable,Explanation
+GameType,Type of Game ,Regular Season or Playoffs
+Season,Season ,"(i.e 2014-15 season is ""2015"" season)"
+Team,Team Name,
+G,Game Number ,Resets at beginning of playoffs
+Date,Date of the game,
+Home,A binary variable to indicate if the team was home or away,
+Opp,Opponent Name,
+W.L,A binary variable to indicate if the team won or lost,
+Tm.Pts,Number of points team scored,
+Opp.Pts,Number of points opponent scored,
+Tm.FGM,Team's Field Goals Made,
+Tm.FGA,Team's Field Goals Attempted,
+Tm.FG_Perc,Team's Field Goal Percentage,Tm.FGM / Tm.FGA
+Tm.3PM,Team's Three-Points Made,
+Tm.3PA,Team's Three-Points Attempted,
+Tm.3P_Perc,Team's Three Points Percentage,Tm.3PM / Tm.3PA
+Tm.FTM,Team's Free Throws Made,
+Tm.FTA,Team's Free Throws Attempted,
+Tm.FT_Perc,Team's Free Throws Percentage,Tm.FTM / Tm.FTA
+Tm.ORB,Team's Offensive Rebounds,
+Tm.TRB,Team's Total Rebounds,
+Tm.AST,Team's Assists,
+Tm.STL,Team's Steals,
+Tm.BLK,Team's Blocks,
+Tm.TOV,Team's Turnovers,
+Tm.PF,Team's Personal Fouls,
+Opp.FGM,Opponent's Field Goals Made,
+Opp.FGA,Opponent's Field Goals Attempted,
+Opp.FG_Perc,Opponent's Field Goal Percentage,Opp.FGM / Opp.FGA
+Opp.3PM,Opponent's Three-Points Made,
+Opp.3PA,Opponent's Three-Points Attempted,
+Opp.3P_Perc,Opponent's Three Points Percentage,Opp.3PM / Opp.3PA
+Opp.FTM,Opponent's Free Throws Made,
+Opp.FTA,Opponent's Free Throws Attempted,
+Opp.FT_Perc,Opponent's Free Throws Percentage,Opp.FOpp / Opp.FTA
+Opp.ORB,Opponent's Offensive Rebounds,
+Opp.TRB,Opponent's Total Rebounds,
+Opp.AST,Opponent's Assists,
+Opp.STL,Opponent's Steals,
+Opp.BLK,Opponent's Blocks,
+Opp.TOV,Opponent's Turnovers,
+Opp.PF,Opponent's Personal Fouls,
+Tm.ORtg,Team's Offensive Rating ,an estimate of points scored per 100 possessions
+Tm.DRtg,Team's Defensive Rating ,an estimate of points allowed per 100 possessions
+Tm.Pace,Team's Pace ,an estimate of possessions per 48 minutes
+Tm.FTr,Team's Free Throw Attempt Rate ,Number of FT Attempts per FG Attempt
+Tm.3PAr,Team's Three Point Attempt Rate ,Percentage of FG Attempts from 3 Point Range
+Tm.TS_Perc,Team's True Shooting Percentage ,"a measure of shooting efficiency that takes into account 2-point field goals, 3-point field goals, and free throws"
+Tm.TRB_Perc,Team's Total Rebound Percentage ,an estimate of the percentage of available revbounds a team grabbed
+Tm.AST_Perc,Team's Assist Percentage ,an estimate of the percentage of field goals a team assisted
+Tm.STL_Perc,Team's Steal Percentage ,an estimate of the percentage of opponent possessions that end with a steal by the team
+Tm.BLK_Perc,Team's Block Percentage ,an estimate of the percentage of opponent two-point field goal attempted blocked by the team
+Tm.eFG_Perc,Team's Effective Field Goal Percentage ,statistic adjusts for the fact that a 3-point field goal is worth one more point than a 2-point field goal
+Tm.TOV_Perc,Team's Turnover Percentage ,an estimate of turnovers committed per 100 plays
+Tm.ORB_Perc,Team's Offensive Rebound Percentage ,an estimate of the percentage of available offensive rebounds a team grabbed
+Tm.FT.FGA,Team's Free Throws per Field Goal Attempt,
+Opp.eFG_Perc,Opponent's Effective Field Goal Percentage,statistic adjusts for the fact that a 3-point field goal is worth one more point than a 2-point field goal
+Opp.TOV_Perc,Opponent's Turnover Percentage,an estimate of turnovers committed per 100 plays
+Opp.DRB_Perc,Opponent's Defensive Rebound Percentage,an estimate of the percentage of available defensive rebounds a team grabbed
+Opp.FT.FGA,Opponent's Free Throws per Field Goal Attempt,
